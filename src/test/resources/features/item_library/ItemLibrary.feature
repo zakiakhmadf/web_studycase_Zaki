@@ -24,16 +24,16 @@ Feature: Item Library
     And User click Save button on item library page
     Then User see successful created item message
     And User see that the created item exists
-    When User is on moka start page
-    And User click sign in button on moka start page
-    And User input email "zakiakhmadf20@gmail.com" on moka sign in page
-    And User input password "abc12345" on moka sign in page
-    And User click Sign in button on moka sign in page
-    And User click Library menu on moka POS page
-    And User choose random category that has been created
-    And User choose the item in that category
-    And User click Save Button on the order pop up
-    And User click charge on library page
-    And User choose suggested exact cash to pay on checkout popup
-    And User click charge on checkout pop up
-    Then User is on receipt page
+#    When User is on moka start page
+#    And User click sign in button on moka start page
+#    And User input email "zakiakhmadf20@gmail.com" on moka sign in page
+#    And User input password "abc12345" on moka sign in page
+#    And User click Sign in button on moka sign in page
+#    And User click Library menu on moka POS page
+#    And User choose random category that has been created
+#    And User choose the item in that category
+#    And User click Save Button on the order pop up
+#    And User click charge on library page
+#    And User choose suggested exact cash to pay on checkout popup
+#    And User click charge on checkout pop up
+#    Then User is on receipt page
